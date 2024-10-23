@@ -38,7 +38,7 @@ const Partners = () => {
     triggerOnce: true,
   });
   return (
-    <Container fluid>
+    <Container style={{ maxWidth: "1300px" }} fluid>
       <div>
         <div
           className={`title_section animate__animated ${
