@@ -19,7 +19,7 @@ const partners = [
         titleOption: "FENEBRAA",
         descritionOption:
           "Federación Nacional Brazos Abiertos, con quienes colaboramos en proyectos de apoyo a las personas en rehabilitación.",
-        url: "/campo3.png",
+        url: "/FENABRAA.svg",
       },
       {
         titleOption: "Iglesia Cristiana Lazos de Amor",

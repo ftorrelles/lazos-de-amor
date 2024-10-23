@@ -2,6 +2,9 @@
   padding: 3rem 0 0 6rem;
   text-align: center;
 }
+.title_section h2 {
+  color: var(--color-base);
+}
 .services-section {
   padding: 2rem 4rem;
 }
@@ -55,6 +58,9 @@
   gap: 1rem;
   padding: 0 3rem;
 }
+.services-section .option .option-content h3 {
+  color: var(--color-base);
+}
 .services-section .option .option-img {
   display: flex;
   justify-content: center;
@@ -62,7 +68,7 @@
 }
 
 .services-section .option img {
-  max-width: 60%;
+  width: 40%;
 }
 
 /* ---- media query----- */
@@ -78,10 +84,10 @@
     padding: 1rem;
   }
   .services-section .option .option-content {
-    padding: 0 1rem 3rem 1rem;
+    padding: 0;
   }
   .services-section .option img {
-    padding: 0 1rem 3rem 1rem;
+    width: 50%;
   }
 }
 /* Estilos para versión de tablet */
@@ -110,7 +116,4 @@
   .services-section .option:nth-child(odd) .option-img {
     order: initial;
   }
-}
-/* Estilos para versión móvil */
-@media (max-width: 480px) {
 }
