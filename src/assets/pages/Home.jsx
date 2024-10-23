@@ -6,6 +6,7 @@ import NumbersSection from "../components/NumbersSection";
 import PhotoGallery from "../components/PhotoGallery";
 import Partners from "../components/Partners";
 import Programs from "../components/Programs";
+import Testimony from "../components/Testimony";
 
 const Home = () => {
   return (
@@ -41,8 +42,9 @@ const Home = () => {
       <Differential />
       <NumbersSection />
       <PhotoGallery />
-      <Partners />
       <Programs />
+      <Testimony />
+      <Partners />
     </>
   );
 };

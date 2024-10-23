@@ -1,55 +1,79 @@
 import React from "react";
 import "../styles/partners.css";
+import { Container } from "react-bootstrap";
+//libreria de animaciones
+import "animate.css";
+//libreria para detectar cuando la seccion este en el vh
+import { useInView } from "react-intersection-observer";
+
+const partners = [
+  {
+    options: [
+      {
+        titleOption: "SENA",
+        descritionOption:
+          "Institución educativa y técnica que colabora ofreciendo cursos y programas de capacitación para los participantes.",
+        url: "/sena.svg",
+      },
+      {
+        titleOption: "FENEBRAA",
+        descritionOption:
+          "Federación Nacional Brazos Abiertos, con quienes colaboramos en proyectos de apoyo a las personas en rehabilitación.",
+        url: "/campo3.png",
+      },
+      {
+        titleOption: "Iglesia Cristiana Lazos de Amor",
+        descritionOption:
+          "Aliado espiritual que brinda apoyo emocional y acompañamiento a los internos y sus familias.",
+        url: "/logo iglesia.svg",
+      },
+    ],
+  },
+];
 
 const Partners = () => {
-  const associations = [
-    {
-      name: "SENA",
-      description: "Servicio Nacional de Aprendizaje (SENA).",
-      logo: "/logo-sena-negro.svg", // Sustituir con la ruta correcta del logo
-      link: "https://www.sena.edu.co/",
-    },
-    {
-      name: "ENEBRAA",
-      description: "Federación Nacional Brazos Abiertos.",
-      logo: "ruta/logo_enebraa.png", // Sustituir con la ruta correcta del logo
-      link: "#",
-    },
-    {
-      name: "Iglesia Cristiana Lazos de Amor",
-      description: "Nuestra comunidad cristiana aliada.",
-      logo: "/logo iglesia.svg", // Sustituir con la ruta correcta del logo
-      link: "#",
-    },
-  ];
-
+  //logica libreria react-intersection-observer
+  const [ref, inView] = useInView({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
   return (
-    <section className="associations-alt-section">
-      <div className="container">
-        <h2 className="section-title">Asociaciones y Aliados</h2>
-        <div className="associations-alt-grid">
-          {associations.map((assoc, index) => (
-            <div key={index} className="association-alt-card">
-              <a href={assoc.link} target="_blank" rel="noopener noreferrer">
-                <div className="logo-container">
-                  <img
-                    src={assoc.logo}
-                    alt={`${assoc.name} logo`}
-                    className="association-alt-logo"
-                  />
-                </div>
-              </a>
-              <div className="text-container">
-                <h3 className="association-alt-name">{assoc.name}</h3>
-                <p className="association-alt-description">
-                  {assoc.description}
-                </p>
-              </div>
-            </div>
-          ))}
+    <Container fluid>
+      <div>
+        <div
+          className={`title_section animate__animated ${
+            inView ? "animate__zoomIn" : ""
+          }`}
+          ref={ref}
+        >
+          <h2>Nuestros aliados</h2>
+          <p>Nuestros aliados nos respaldan y apoyan en esta mision.</p>
         </div>
+
+        {partners.map((section, index) => (
+          <div key={index} className="services-section ">
+            <div className="options-container curved">
+              {section.options.map((option, index) => (
+                <div
+                  key={index}
+                  className={`option animate__animated animate__delay-1s ${
+                    inView ? "animate__zoomIn" : ""
+                  }`}
+                >
+                  <div className="option-content">
+                    <h3>{option.titleOption}</h3>
+                    <p>{option.descritionOption}</p>
+                  </div>
+                  <div className="option-img">
+                    <img src={option.url} alt={option.titleOption} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </Container>
   );
 };
 
