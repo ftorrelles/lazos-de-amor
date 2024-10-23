@@ -1,0 +1,26 @@
+/* -- Navbar -- */
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
+
+.navbar-fixed-top .navbar-collapse {
+  z-index: 9999;
+}
+
+.navBar.scrolled {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
