@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
+  max-width: "1300px";
   /* Altura total de la sección */
   min-height: 90vh;
   /* Crear el efecto home */
