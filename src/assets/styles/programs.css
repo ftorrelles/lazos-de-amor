@@ -12,17 +12,12 @@
 
 .programs-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
 .program-item {
   display: flex;
-  align-items: flex-start;
-  max-width: 45%;
   padding: 20px;
   border-radius: 15px;
   background-color: var(--color-light);
@@ -39,10 +34,6 @@
   font-size: 3rem;
   color: var(--color-base);
   margin-right: 20px;
-}
-
-.program-content {
-  flex-grow: 1;
 }
 
 .program-title {
@@ -85,6 +76,10 @@
 
   .program-description {
     font-size: 0.9rem;
+  }
+  .program-item {
+    display: flex;
+    flex-direction: column;
   }
 
   .program-impact {

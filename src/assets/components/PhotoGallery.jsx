@@ -2,7 +2,6 @@ import Slider from "react-slick";
 import "../styles/gallery.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import "animate.css/animate.min.css";
 //libreria para detectar cuando la seccion este en el vh
 import { useInView } from "react-intersection-observer";
@@ -43,7 +42,6 @@ const PhotoGallery = () => {
     ],
   };
   const PhotosChinauta = [
-    { title: "1", URL: "chinauta1.svg" },
     { title: "2", URL: "chinauta2.svg" },
     { title: "3", URL: "chinauta3.svg" },
     { title: "4", URL: "chinauta4.svg" },
@@ -57,8 +55,6 @@ const PhotoGallery = () => {
     { title: "12", URL: "chinauta12.svg" },
     { title: "13", URL: "chinauta13.svg" },
     { title: "14", URL: "chinauta14.svg" },
-    { title: "15", URL: "chinauta15.svg" },
-    { title: "16", URL: "chinauta16.svg" },
     { title: "17", URL: "chinauta17.svg" },
     { title: "18", URL: "chinauta18.svg" },
     { title: "19", URL: "chinauta19.svg" },
@@ -81,12 +77,8 @@ const PhotoGallery = () => {
   ];
   const PhotosBogota = [
     { title: "1", URL: "bogota1.svg" },
-    { title: "2", URL: "bogota2.svg" },
-    { title: "3", URL: "bogota3.svg" },
-    { title: "4", URL: "bogota4.svg" },
-    { title: "5", URL: "bogota5.svg" },
-    { title: "6", URL: "bogota6.svg" },
     { title: "7", URL: "bogota7.svg" },
+    { title: "3", URL: "bogota3.svg" },
     { title: "8", URL: "bogota8.svg" },
     { title: "9", URL: "bogota9.svg" },
     { title: "10", URL: "bogota10.svg" },
@@ -94,6 +86,16 @@ const PhotoGallery = () => {
     { title: "12", URL: "bogota12.svg" },
     { title: "13", URL: "bogota13.svg" },
     { title: "14", URL: "bogota14.svg" },
+  ];
+  const PhotosGirs = [
+    { title: "1", URL: "chinauta1.svg" },
+    { title: "2", URL: "chinauta15.svg" },
+    { title: "3", URL: "chinauta16.svg" },
+    { title: "4", URL: "bogota2.svg" },
+    { title: "5", URL: "bogota4.svg" },
+    { title: "6", URL: "bogota5.svg" },
+    { title: "7", URL: "bogota6.svg" },
+    { title: "8", URL: "bogota15.svg" },
   ];
 
   return (
@@ -150,6 +152,26 @@ const PhotoGallery = () => {
         </p>
         <Slider {...settings}>
           {PhotosBogota.map((photochinauta, index) => (
+            <div className="photo-gallery-slide" key={index}>
+              <img src={`/${photochinauta.URL}`} alt={photochinauta.title} />
+            </div>
+          ))}
+        </Slider>
+      </div>
+      <div className="photo-gallery-container">
+        <h2
+          className={`photo-gallery-title animate__animated ${
+            inView ? "animate__fadeInDown" : ""
+          }`}
+          ref={ref}
+        >
+          Programas especiales para mujeres
+        </h2>
+        <p style={{ textAlign: "center" }}>
+          {/* 📌 Avda, cra 50 sur #37-27, Barrio Santa Rita{" "} */}
+        </p>
+        <Slider {...settings}>
+          {PhotosGirs.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
               <img src={`/${photochinauta.URL}`} alt={photochinauta.title} />
             </div>
