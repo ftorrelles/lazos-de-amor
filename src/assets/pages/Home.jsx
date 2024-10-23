@@ -7,6 +7,7 @@ import PhotoGallery from "../components/PhotoGallery";
 import Partners from "../components/Partners";
 import Programs from "../components/Programs";
 import Testimony from "../components/Testimony";
+import ContentInfo from "../components/ContentInfo";
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
       <Programs />
       <Testimony />
       <Partners />
+      <ContentInfo />
     </>
   );
 };

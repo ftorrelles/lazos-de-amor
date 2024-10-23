@@ -1,0 +1,86 @@
+.elegant-contact-section {
+  background-color: var(--color-light);
+  padding: 3rem;
+}
+
+.section-title {
+  color: var(--color-base);
+  letter-spacing: 1.5px;
+}
+
+.section-subtitle {
+  color: #777;
+}
+
+.contact-info-column {
+  border-right: 1px solid #ddd; /* Línea divisoria */
+  padding-right: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.contact-icon {
+  color: var(--color-base);
+  margin-right: 1rem;
+}
+
+.contact-item h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.contact-item p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.contact-item a {
+  color: var(--color-base);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: var(--color-secundary);
+}
+
+.social-section h5 {
+  font-size: 1.5rem;
+  color: var(--color-base);
+}
+
+.social-icons a {
+  margin: 0 15px;
+  color: var(--color-base);
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: var(--color-secundary);
+}
+
+@media (max-width: 768px) {
+  .contact-info-column {
+    border-right: none;
+    padding-right: 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
