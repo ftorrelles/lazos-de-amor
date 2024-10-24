@@ -11,7 +11,7 @@ const Differential = () => {
             <Col>
               <Card className="differential__feature">
                 <Card.Body>
-                  <i class="bx bx-first-aid"></i>
+                  <i className="bx bx-first-aid"></i>
                   <Card.Title>Enfoque Teoterapéutico</Card.Title>
                   <Card.Text>
                     Implementamos un enfoque teoterapéutico que combina
@@ -27,7 +27,7 @@ const Differential = () => {
             <Col>
               <Card className="differential__feature">
                 <Card.Body>
-                  <i class="bx bxs-hard-hat"></i>
+                  <i className="bx bxs-hard-hat"></i>
                   <Card.Title>Reintegración Social</Card.Title>
                   <Card.Text>
                     Nos enfocamos en la reintegración social, ofreciendo
@@ -43,7 +43,7 @@ const Differential = () => {
             <Col>
               <Card className="differential__feature">
                 <Card.Body>
-                  <i class="bx bx-male-female"></i>
+                  <i className="bx bx-male-female"></i>
                   <Card.Title>Apoyo Familiar Integral</Card.Title>
                   <Card.Text>
                     Brindamos apoyo familiar continuo, ayudando a las familias a

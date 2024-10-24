@@ -37,7 +37,7 @@ const ContentInfo = () => {
               <h5>WhatsApp</h5>
               <p>
                 <a
-                  href="https://wa.me/573132173288"
+                  href="https://wa.me/573229425384"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -59,10 +59,18 @@ const ContentInfo = () => {
           <div className="social-section text-center w-100">
             <h5 className="mb-4">Síguenos en Redes Sociales</h5>
             <div className="social-icons d-flex justify-content-center">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.facebook.com/profile.php?id=61559318943462"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebook size={50} className="social-icon" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/adicciones_lazosdeamor/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram size={50} className="social-icon" />
               </a>
             </div>

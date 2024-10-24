@@ -25,9 +25,15 @@ const Home = () => {
                 posible.
               </p>
               <div className="Button">
-                <Button variant="light" className="cta-button">
-                  Conoce Más
-                </Button>
+                <a
+                  href="https://wa.me/573229425384"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="light" className="cta-button">
+                    Contáctanos
+                  </Button>
+                </a>
               </div>
             </Col>
             {/* Imagen */}

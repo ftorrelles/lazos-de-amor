@@ -64,18 +64,10 @@ const NavBar = () => {
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link
-                as={Link}
-                to="/internetService"
-                style={{ color: "#f9f7f7" }}
-              >
+              <Nav.Link as={Link} to="/services" style={{ color: "#f9f7f7" }}>
                 <p>Servicios a tu alcance</p>
               </Nav.Link>
-              <Nav.Link
-                as={Link}
-                to="/serviceIPTV"
-                style={{ color: "#f9f7f7" }}
-              >
+              <Nav.Link as={Link} to="/testimony" style={{ color: "#f9f7f7" }}>
                 <p>Testimonios</p>
               </Nav.Link>
               <Nav.Link as={Link} to="/aboutUs" style={{ color: "#f9f7f7" }}>

@@ -33,14 +33,17 @@ function Footer() {
           <div className="footer-content">
             <h3 style={{ textAlign: "center" }}>Redes sociales</h3>
             <div className="div_icons_contact">
-              <a href="https://www.instagram.com/netbar23633/" target="_blank">
+              <a
+                href="https://www.instagram.com/adicciones_lazosdeamor/"
+                target="_blank"
+              >
                 <i className="bx bxl-instagram"></i>
               </a>
-              <a href="https://wa.me/584120626775" target="_blank">
+              <a href="https://wa.me/573229425384" target="_blank">
                 <i className="bx bxl-whatsapp"></i>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=61567127995251&rdid=9yKq3nKLFTcwD5xj"
+                href="https://www.facebook.com/profile.php?id=61559318943462"
                 target="_blank"
               >
                 <i className="bx bxl-facebook-circle"></i>
