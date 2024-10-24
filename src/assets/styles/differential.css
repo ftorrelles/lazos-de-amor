@@ -11,7 +11,7 @@
 .differential__title {
   font-size: 2rem;
   font-weight: 700;
-  color: #201e1e;
+  color: var(--color-base);
   margin-bottom: 4rem;
 }
 

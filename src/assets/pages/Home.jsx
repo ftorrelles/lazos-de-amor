@@ -8,6 +8,7 @@ import Partners from "../components/Partners";
 import Programs from "../components/Programs";
 import Testimony from "../components/Testimony";
 import ContentInfo from "../components/ContentInfo";
+import ComicSection from "../components/ComicSection";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
           </Row>
         </Container>
       </div>
+      <ComicSection />
       <Differential />
       <NumbersSection />
       <PhotoGallery />

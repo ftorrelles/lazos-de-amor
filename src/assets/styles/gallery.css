@@ -8,6 +8,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding-top: 3rem;
+  color: var(--color-base);
 }
 
 .photo-gallery-container {
