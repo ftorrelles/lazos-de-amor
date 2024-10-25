@@ -5,8 +5,8 @@ import { useInView } from "react-intersection-observer";
 import "../styles/numberssection.css";
 
 const NumbersSection = () => {
-  const recovery = 500;
-  const interns = 200;
+  const recovery = 2600;
+  const interns = 260;
   const professionals = 30;
   const expirience = 18;
   //logica libreria react-intersection-observer
@@ -27,6 +27,19 @@ const NumbersSection = () => {
         <h4 className="info_stats">Porque los números nos respaldan</h4>
         {inView && (
           <div className="counter">
+            <div className="counter__item">
+              <i className="bx bx-check-square"></i>
+              <CountUp
+                start={0}
+                end={expirience}
+                duration={2.5}
+                delay={0.5}
+                separator=","
+                decimals={0}
+                prefix="+ de "
+                suffix=" Años de experiencia"
+              />
+            </div>
             <div className="counter__item">
               <i className="bx bx-notepad"></i>
               <CountUp
@@ -64,19 +77,6 @@ const NumbersSection = () => {
                 decimals={0}
                 prefix="+ de "
                 suffix=" Profesionales Trabajando"
-              />
-            </div>
-            <div className="counter__item">
-              <i className="bx bx-check-square"></i>
-              <CountUp
-                start={0}
-                end={expirience}
-                duration={2.5}
-                delay={0.5}
-                separator=","
-                decimals={0}
-                prefix="+ de "
-                suffix=" Años de experiencia"
               />
             </div>
           </div>

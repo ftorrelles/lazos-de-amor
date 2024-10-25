@@ -37,7 +37,7 @@ const ContentInfo = () => {
               <h5>WhatsApp</h5>
               <p>
                 <a
-                  href="https://wa.me/573229425384"
+                  href="https://wa.me/573106942538"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
