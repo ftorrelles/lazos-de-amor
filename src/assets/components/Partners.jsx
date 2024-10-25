@@ -65,7 +65,7 @@ const Partners = () => {
                     <p>{option.descritionOption}</p>
                   </div>
                   <div className="option-img">
-                    <img src={option.url} alt={option.titleOption} />
+                    <img src={option.url} loading="lazy" alt={option.titleOption} />
                   </div>
                 </div>
               ))}

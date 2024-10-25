@@ -39,7 +39,8 @@ const Home = () => {
             {/* Imagen */}
             <Col lg={6} md={12} className="image-content">
               <img
-                src="/home.jpg"
+                src="/home.webp"
+                loading="lazy"
                 alt="Persona en cambio"
                 className="img-fluid"
               />

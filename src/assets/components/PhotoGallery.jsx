@@ -76,16 +76,16 @@ const PhotoGallery = () => {
     { title: "12", URL: "silvania12.svg" },
   ];
   const PhotosBogota = [
-    { title: "1", URL: "bogota1.svg" },
+    { title: "1", URL: "bogota1.webp" },
     { title: "7", URL: "bogota7.svg" },
     { title: "3", URL: "bogota3.svg" },
-    { title: "8", URL: "bogota8.svg" },
-    { title: "9", URL: "bogota9.svg" },
-    { title: "10", URL: "bogota10.svg" },
-    { title: "11", URL: "bogota11.svg" },
-    { title: "12", URL: "bogota12.svg" },
-    { title: "13", URL: "bogota13.svg" },
-    { title: "14", URL: "bogota14.svg" },
+    { title: "8", URL: "bogota8.webp" },
+    { title: "9", URL: "bogota9.webp" },
+    { title: "10", URL: "bogota10.webp" },
+    { title: "11", URL: "bogota11.webp" },
+    { title: "12", URL: "bogota12.webp" },
+    { title: "13", URL: "bogota13.webp" },
+    { title: "14", URL: "bogota14.webp" },
   ];
   const PhotosGirs = [
     { title: "1", URL: "chinauta1.svg" },
@@ -95,7 +95,7 @@ const PhotoGallery = () => {
     { title: "5", URL: "bogota4.svg" },
     { title: "6", URL: "bogota5.svg" },
     { title: "7", URL: "bogota6.svg" },
-    { title: "8", URL: "bogota15.svg" },
+    { title: "8", URL: "bogota15.webp" },
   ];
 
   return (
@@ -113,7 +113,7 @@ const PhotoGallery = () => {
         <Slider {...settings}>
           {PhotosChinauta.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} alt={photochinauta.title} />
+              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
             </div>
           ))}
         </Slider>
@@ -133,7 +133,7 @@ const PhotoGallery = () => {
         <Slider {...settings}>
           {PhotosSilvania.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} alt={photochinauta.title} />
+              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
             </div>
           ))}
         </Slider>
@@ -153,7 +153,7 @@ const PhotoGallery = () => {
         <Slider {...settings}>
           {PhotosBogota.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} alt={photochinauta.title} />
+              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
             </div>
           ))}
         </Slider>
@@ -173,7 +173,7 @@ const PhotoGallery = () => {
         <Slider {...settings}>
           {PhotosGirs.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} alt={photochinauta.title} />
+              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
             </div>
           ))}
         </Slider>

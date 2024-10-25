@@ -15,7 +15,7 @@ const AboutUs = () => {
         }}
       ></div>
       <ComicSection />
-      <Testimony />
+      {/* <Testimony /> */}
       <PhotoGallery />
       <ContentInfo />
     </>

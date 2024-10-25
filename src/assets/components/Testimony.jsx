@@ -33,7 +33,7 @@ const Testimony = () => {
                 </blockquote>
                 <p className="testimonio-nombre">- {testimonio.nombre}</p>
                 <video controls className="testimonio-video">
-                  <source src={testimonio.videoUrl} type="video/mp4" />
+                  <source src={testimonio.videoUrl} loading="lazy" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
