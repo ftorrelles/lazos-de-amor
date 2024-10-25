@@ -6,6 +6,7 @@ import {
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
+  FaEnvelope,
 } from "react-icons/fa";
 import "../styles/info.css";
 
@@ -44,6 +45,21 @@ const ContentInfo = () => {
                   Chatea con nosotros
                 </a>
               </p>
+            </div>
+          </div>
+          <div className="contact-item">
+            <FaEnvelope size={40} className="contact-icon" />
+            <div className="emailInfo">
+              <h5>Correo Electrónico</h5>
+              <h6>
+                <a
+                  href="mailto:admisiones@fundacionlazosdeamor.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  admisiones@fundacionlazosdeamor.com
+                </a>
+              </h6>
             </div>
           </div>
           <div className="contact-item">

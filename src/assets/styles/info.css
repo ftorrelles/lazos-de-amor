@@ -79,6 +79,9 @@
   .section-title {
     font-size: 2rem;
   }
+  .emailInfo h6{
+    font-size: 12px;
+  }
 
   .social-icons a {
     margin: 0 10px;
