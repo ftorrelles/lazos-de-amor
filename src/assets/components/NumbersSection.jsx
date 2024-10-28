@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import imageStats from "/numbers.svg";
+import imageStats from "/Numbers.jpg";
 import { useInView } from "react-intersection-observer";
 import "../styles/numberssection.css";
 

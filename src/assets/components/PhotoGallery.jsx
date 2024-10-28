@@ -2,16 +2,8 @@ import Slider from "react-slick";
 import "../styles/gallery.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "animate.css/animate.min.css";
-//libreria para detectar cuando la seccion este en el vh
-import { useInView } from "react-intersection-observer";
 
 const PhotoGallery = () => {
-  //logica libreria react-intersection-observer
-  const [ref, inView] = useInView({
-    threshold: 0.2,
-    triggerOnce: true,
-  });
   const settings = {
     dots: false,
     infinite: true,
@@ -42,60 +34,60 @@ const PhotoGallery = () => {
     ],
   };
   const PhotosChinauta = [
-    { title: "2", URL: "chinauta2.svg" },
-    { title: "3", URL: "chinauta3.svg" },
-    { title: "4", URL: "chinauta4.svg" },
-    { title: "5", URL: "chinauta5.svg" },
-    { title: "6", URL: "chinauta6.svg" },
-    { title: "7", URL: "chinauta7.svg" },
-    { title: "8", URL: "chinauta8.svg" },
-    { title: "9", URL: "chinauta9.svg" },
-    { title: "10", URL: "chinauta10.svg" },
-    { title: "11", URL: "chinauta11.svg" },
-    { title: "12", URL: "chinauta12.svg" },
-    { title: "13", URL: "chinauta13.svg" },
-    { title: "14", URL: "chinauta14.svg" },
-    { title: "17", URL: "chinauta17.svg" },
-    { title: "18", URL: "chinauta18.svg" },
-    { title: "19", URL: "chinauta19.svg" },
-    { title: "20", URL: "chinauta20.svg" },
-    { title: "21", URL: "chinauta21.svg" },
+    { title: "2", URL: "Chinauta2.jpg" },
+    { title: "3", URL: "Chinauta3.jpg" },
+    { title: "4", URL: "Chinauta4.jpg" },
+    { title: "5", URL: "Chinauta5.jpg" },
+    { title: "6", URL: "Chinauta6.jpg" },
+    { title: "7", URL: "Chinauta7.jpg" },
+    { title: "8", URL: "Chinauta8.jpg" },
+    { title: "9", URL: "Chinauta9.jpg" },
+    { title: "10", URL: "Chinauta10.jpg" },
+    { title: "11", URL: "Chinauta11.jpg" },
+    { title: "12", URL: "Chinauta12.jpg" },
+    { title: "13", URL: "Chinauta13.jpg" },
+    { title: "14", URL: "Chinauta14.jpg" },
+    { title: "17", URL: "Chinauta17.jpg" },
+    { title: "18", URL: "Chinauta18.jpg" },
+    { title: "19", URL: "Chinauta19.jpg" },
+    { title: "20", URL: "Chinauta20.jpg" },
+    { title: "21", URL: "Chinauta21.jpg" },
   ];
   const PhotosSilvania = [
-    { title: "1", URL: "silvania1.svg" },
-    { title: "2", URL: "silvania2.svg" },
-    { title: "3", URL: "silvania3.svg" },
-    { title: "4", URL: "silvania4.svg" },
-    { title: "5", URL: "silvania5.svg" },
-    { title: "6", URL: "silvania6.svg" },
-    { title: "7", URL: "silvania7.svg" },
-    { title: "8", URL: "silvania8.svg" },
-    { title: "9", URL: "silvania9.svg" },
-    { title: "10", URL: "silvania10.svg" },
-    { title: "11", URL: "silvania11.svg" },
-    { title: "12", URL: "silvania12.svg" },
+    { title: "1", URL: "Silvania1.jpg" },
+    { title: "2", URL: "Silvania2.jpg" },
+    { title: "3", URL: "Silvania3.jpg" },
+    { title: "4", URL: "Silvania4.jpg" },
+    { title: "5", URL: "Silvania5.jpg" },
+    { title: "6", URL: "Silvania6.jpg" },
+    { title: "7", URL: "Silvania7.jpg" },
+    { title: "8", URL: "Silvania8.jpg" },
+    { title: "9", URL: "Silvania9.jpg" },
+    { title: "10", URL: "Silvania10.jpg" },
+    { title: "11", URL: "Silvania11.jpg" },
+    { title: "12", URL: "Silvania12.jpg" },
   ];
   const PhotosBogota = [
-    { title: "1", URL: "bogota1.webp" },
-    { title: "7", URL: "bogota7.svg" },
-    { title: "3", URL: "bogota3.svg" },
-    { title: "8", URL: "bogota8.webp" },
-    { title: "9", URL: "bogota9.webp" },
-    { title: "10", URL: "bogota10.webp" },
-    { title: "11", URL: "bogota11.webp" },
-    { title: "12", URL: "bogota12.webp" },
-    { title: "13", URL: "bogota13.webp" },
-    { title: "14", URL: "bogota14.webp" },
+    { title: "1", URL: "Bogota1.jpg" },
+    { title: "7", URL: "Bogota7.jpg" },
+    { title: "3", URL: "Bogota3.jpg" },
+    { title: "8", URL: "Bogota8.jpg" },
+    { title: "9", URL: "Bogota9.jpg" },
+    { title: "10", URL: "Bogota10.jpg" },
+    { title: "11", URL: "Bogota11.jpg" },
+    { title: "12", URL: "Bogota12.jpg" },
+    { title: "13", URL: "Bogota13.jpg" },
+    { title: "14", URL: "Bogota14.jpg" },
   ];
   const PhotosGirs = [
-    { title: "1", URL: "chinauta1.svg" },
-    { title: "2", URL: "chinauta15.svg" },
-    { title: "3", URL: "chinauta16.svg" },
-    { title: "4", URL: "bogota2.svg" },
-    { title: "5", URL: "bogota4.svg" },
-    { title: "6", URL: "bogota5.svg" },
-    { title: "7", URL: "bogota6.svg" },
-    { title: "8", URL: "bogota15.webp" },
+    { title: "1", URL: "Chinauta1.jpg" },
+    { title: "2", URL: "Chinauta15.jpg" },
+    { title: "3", URL: "Chinauta16.jpg" },
+    { title: "4", URL: "Bogota2.jpg" },
+    { title: "5", URL: "Bogota4.jpg" },
+    { title: "6", URL: "Bogota5.jpg" },
+    { title: "7", URL: "Bogota6.jpg" },
+    { title: "8", URL: "Bogota15.jpg" },
   ];
 
   return (

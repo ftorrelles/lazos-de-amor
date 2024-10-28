@@ -19,13 +19,13 @@ const partners = [
         titleOption: "FENEBRAA",
         descritionOption:
           "Federación Nacional Brazos Abiertos, con quienes colaboramos en proyectos de apoyo a las personas en rehabilitación.",
-        url: "/FENABRAA.svg",
+        url: "/logoFenabraa.jpg",
       },
       {
         titleOption: "Iglesia Cristiana Lazos de Amor",
         descritionOption:
           "Aliado espiritual que brinda apoyo emocional y acompañamiento a los internos y sus familias.",
-        url: "/logo iglesia.svg",
+        url: "/logoIglesia.jpg",
       },
     ],
   },
@@ -65,7 +65,11 @@ const Partners = () => {
                     <p>{option.descritionOption}</p>
                   </div>
                   <div className="option-img">
-                    <img src={option.url} loading="lazy" alt={option.titleOption} />
+                    <img
+                      src={option.url}
+                      loading="lazy"
+                      alt={option.titleOption}
+                    />
                   </div>
                 </div>
               ))}
