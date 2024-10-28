@@ -38,11 +38,15 @@ const Home = () => {
             </Col>
             {/* Imagen */}
             <Col lg={6} md={12} className="image-content">
+              {/* <img src="/home.webp" alt="Persona en cambio" /> */}
               <img
-                src="/home.webp"
-                loading="lazy"
+                src="/home-desktop.jpeg" // Imagen predeterminada para desktop
+                srcSet="
+                  /home-mobile.jpeg 600w,
+                  /home-tablet.jpeg 1000w,
+                  /home-desktop.jpeg 1600w"
+                sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 50vw"
                 alt="Persona en cambio"
-                className="img-fluid"
               />
             </Col>
           </Row>

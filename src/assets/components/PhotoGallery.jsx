@@ -101,70 +101,56 @@ const PhotoGallery = () => {
   return (
     <>
       <div className="photo-gallery-container">
-        <h2
-          className={`photo-gallery-title animate__animated ${
-            inView ? "animate__fadeInDown" : ""
-          }`}
-          ref={ref}
-        >
-          Sede Chinauta
-        </h2>
+        <h2 className="photo-gallery-title">Sede Chinauta</h2>
         <p style={{ textAlign: "center" }}>📌 Km 65 Santropel Acropolis </p>
         <Slider {...settings}>
           {PhotosChinauta.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
+              <img
+                src={`/${photochinauta.URL}`}
+                loading="lazy"
+                alt={photochinauta.title}
+              />
             </div>
           ))}
         </Slider>
       </div>
       <div className="photo-gallery-container">
-        <h2
-          className={`photo-gallery-title animate__animated ${
-            inView ? "animate__fadeInDown" : ""
-          }`}
-          ref={ref}
-        >
-          Sede Silvania
-        </h2>
+        <h2 className="photo-gallery-title">Sede Silvania</h2>
         <p style={{ textAlign: "center" }}>
           📌 Entrada vereda Tibacuy-finca la muralla{" "}
         </p>
         <Slider {...settings}>
           {PhotosSilvania.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
+              <img
+                src={`/${photochinauta.URL}`}
+                loading="lazy"
+                alt={photochinauta.title}
+              />
             </div>
           ))}
         </Slider>
       </div>
       <div className="photo-gallery-container">
-        <h2
-          className={`photo-gallery-title animate__animated ${
-            inView ? "animate__fadeInDown" : ""
-          }`}
-          ref={ref}
-        >
-          Sede Bogota
-        </h2>
+        <h2 className="photo-gallery-title">Sede Bogota</h2>
         <p style={{ textAlign: "center" }}>
           📌 Avda, cra 50 sur #37-27, Barrio Santa Rita{" "}
         </p>
         <Slider {...settings}>
           {PhotosBogota.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
+              <img
+                src={`/${photochinauta.URL}`}
+                loading="lazy"
+                alt={photochinauta.title}
+              />
             </div>
           ))}
         </Slider>
       </div>
       <div className="photo-gallery-container">
-        <h2
-          className={`photo-gallery-title animate__animated ${
-            inView ? "animate__fadeInDown" : ""
-          }`}
-          ref={ref}
-        >
+        <h2 className="photo-gallery-title">
           Programas especiales para mujeres
         </h2>
         <p style={{ textAlign: "center" }}>
@@ -173,7 +159,11 @@ const PhotoGallery = () => {
         <Slider {...settings}>
           {PhotosGirs.map((photochinauta, index) => (
             <div className="photo-gallery-slide" key={index}>
-              <img src={`/${photochinauta.URL}`} loading="lazy" alt={photochinauta.title} />
+              <img
+                src={`/${photochinauta.URL}`}
+                loading="lazy"
+                alt={photochinauta.title}
+              />
             </div>
           ))}
         </Slider>
