@@ -30,6 +30,7 @@ const ContentInfo = () => {
             <div>
               <h5>Teléfono</h5>
               <p>+57 313 2173288</p>
+              <p>+57 310 6942538</p>
             </div>
           </div>
           <div className="contact-item">

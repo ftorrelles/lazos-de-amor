@@ -6,24 +6,33 @@ import Footer from "./assets/components/Footer";
 import Services from "./assets/pages/Services";
 import PageTestimony from "./assets/pages/PageTestimony";
 import AboutUs from "./assets/pages/AboutUs";
+import BusinessCard from "./assets/pages/BusinessCard";
 
 function App() {
   return (
-    <>
-      {" "}
-      <HashRouter>
-        <div className="App">
-          <NavBar />
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/services" element={<Services />}></Route>
-            <Route path="/testimony" element={<PageTestimony />}></Route>
-            <Route path="/aboutUs" element={<AboutUs />}></Route>
-          </Routes>
-          <Footer />
-        </div>
-      </HashRouter>
-    </>
+    <HashRouter>
+      <div className="App">
+        {/* Muestra NavBar y Footer solo si no estás en la ruta /businessCard */}
+        <Routes>
+          <Route path="/businessCard" element={<BusinessCard />} />
+          <Route
+            path="*"
+            element={
+              <>
+                <NavBar />
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/services" element={<Services />} />
+                  <Route path="/testimony" element={<PageTestimony />} />
+                  <Route path="/aboutUs" element={<AboutUs />} />
+                </Routes>
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </HashRouter>
   );
 }
 
