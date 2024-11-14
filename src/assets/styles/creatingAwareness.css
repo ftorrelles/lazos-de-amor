@@ -1,0 +1,116 @@
+/* Fondo estilo breaking news */
+.consciencia-section {
+  padding: 60px 20px;
+  background-color: #1d3557;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.consciencia-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #1d3557;
+}
+
+.breaking-news-frame {
+  background: #9b9595;
+  padding: 27px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  width: 600px;
+  position: relative;
+  border: 4px solid #e63946; /* Marco oscuro */
+  overflow: hidden;
+}
+
+/* Decoración de cintas estilo breaking news */
+.breaking-news-frame:before,
+.breaking-news-frame:after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 8px;
+  background: repeating-linear-gradient(
+    45deg,
+    #e63946,
+    #e63946 10px,
+    #1d3557 10px,
+    #1d3557 20px
+  );
+}
+
+.breaking-news-frame:before {
+  top: -4px;
+  left: -50%;
+  transform: rotate(-3deg);
+}
+
+.breaking-news-frame:after {
+  bottom: -4px;
+  right: -50%;
+  transform: rotate(3deg);
+}
+
+/* Carrusel de videos */
+.video-carousel .slick-dots {
+  bottom: -30px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-title {
+  font-size: 1.2rem;
+  color: #1d3557; /* Color oscuro */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 5px;
+  border: 2px solid #e63946; /* Marco rojo */
+}
+
+/* Flechas de control del carrusel */
+.carousel-control {
+  background: #1d3557; /* Azul oscuro */
+  color: #1d3557;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.carousel-control:hover {
+  background: #457b9d; /* Azul más claro */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 200px;
+  }
+
+  .consciencia-title {
+    font-size: 1.8rem;
+  }
+}

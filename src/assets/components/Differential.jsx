@@ -15,11 +15,11 @@ const Differential = () => {
                   <Card.Title>Enfoque Teoterapéutico</Card.Title>
                   <Card.Text>
                     Implementamos un enfoque teoterapéutico que combina
-                    espiritualidad y tratamiento médico, brindando un camino
+                    espiritualidad y terapias psicológicas, brindando un camino
                     integral hacia la sanación emocional. Esto permite a los
                     pacientes hallar un propósito y sentido en sus vidas,
-                    complementando los tratamientos médicos con prácticas que
-                    fomentan la recuperación.
+                    complementando las terapias con prácticas que fomentan la
+                    recuperación completa de los usuarios.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -51,7 +51,7 @@ const Differential = () => {
                     de talleres y sesiones de orientación, fortalecemos la
                     dinámica familiar, creando un entorno favorable para la
                     recuperación y permitiendo a los seres queridos ser parte
-                    del proceso de sanación.
+                    del proceso de reintegración y sanación.
                   </Card.Text>
                 </Card.Body>
               </Card>

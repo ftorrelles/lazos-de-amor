@@ -19,7 +19,7 @@ const programs = [
   {
     title: "Rehabilitación",
     description:
-      "Proporcionamos un entorno seguro y terapéutico donde las personas reciben tratamientos médicos y terapias psicológicas. Contamos con un enfoque integral que abarca tanto la salud física como la mental, ayudando a cada individuo a reconstruir su vida de manera saludable.",
+      "Proporcionamos un entorno seguro y terapéutico donde las personas reciben terapias psicológicas. Contamos con un enfoque integral que abarca tanto la salud física como la mental, ayudando a cada individuo a reconstruir su vida de manera saludable.",
     impact:
       "💊 Impacto: Cientos de pacientes reciben tratamiento médico adecuado para superar las adicciones de manera saludable.",
     activity1:

@@ -11,8 +11,9 @@
 
 .testimonios-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: space-around;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
   gap: 20px;
 }
 

@@ -9,6 +9,7 @@ import Programs from "../components/Programs";
 import Testimony from "../components/Testimony";
 import ContentInfo from "../components/ContentInfo";
 import ComicSection from "../components/ComicSection";
+import CreatingAwareness from "../components/CreatingAwareness";
 
 const Home = () => {
   return (
@@ -53,11 +54,13 @@ const Home = () => {
         </Container>
       </div>
       <ComicSection />
+      <CreatingAwareness />
       <Differential />
       <NumbersSection />
       <PhotoGallery />
       <Programs />
-      {/* <Testimony /> */}
+      <Testimony />
+
       <Partners />
       <ContentInfo />
     </>
