@@ -15,7 +15,7 @@ const PageTestimony = () => {
           backgroundColor: "#000000",
         }}
       ></div>
-      {/* <Testimony /> */}
+      <Testimony />
       <ComicSection />
       <PhotoGallery />
       <ContentInfo />

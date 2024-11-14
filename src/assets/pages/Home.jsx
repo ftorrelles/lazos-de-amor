@@ -60,7 +60,6 @@ const Home = () => {
       <PhotoGallery />
       <Programs />
       <Testimony />
-
       <Partners />
       <ContentInfo />
     </>
