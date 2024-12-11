@@ -15,9 +15,9 @@ const Differential = () => {
                   <Card.Title>Enfoque Teoterapéutico</Card.Title>
                   <Card.Text>
                     Implementamos un enfoque teoterapéutico que combina
-                    espiritualidad y terapias psicológicas, brindando un camino
+                    espiritualidad y ayuda psicológica, brindando un camino
                     integral hacia la sanación emocional. Esto permite a los
-                    pacientes hallar un propósito y sentido en sus vidas,
+                    usuarios hallar un propósito y sentido en sus vidas,
                     complementando las terapias con prácticas que fomentan la
                     recuperación completa de los usuarios.
                   </Card.Text>
@@ -31,8 +31,8 @@ const Differential = () => {
                   <Card.Title>Reintegración Social</Card.Title>
                   <Card.Text>
                     Nos enfocamos en la reintegración social, ofreciendo
-                    herramientas y habilidades para que los individuos regresen
-                    a la sociedad de manera efectiva. Contamos con convenios con
+                    herramientas y habilidades para que los usuarios regresen a
+                    la sociedad de manera efectiva. Contamos con convenios con
                     el SENA, que brindan cursos de panadería y otros oficios,
                     facilitando la formación profesional y el desarrollo de
                     competencias.

@@ -50,7 +50,7 @@ const NumbersSection = () => {
                 separator=","
                 decimals={0}
                 prefix="+ de "
-                suffix=" Pacientes Recuperados"
+                suffix=" Usuarios Recuperados"
               />
             </div>
             <div className="counter__item">
@@ -63,7 +63,7 @@ const NumbersSection = () => {
                 separator=","
                 decimals={0}
                 prefix="+ de "
-                suffix=" Pacientes Activos"
+                suffix=" Usuarios Activos"
               />
             </div>
             <div className="counter__item">
@@ -76,7 +76,7 @@ const NumbersSection = () => {
                 separator=","
                 decimals={0}
                 prefix="+ de "
-                suffix=" Profesionales Trabajando"
+                suffix=" Colaboradores Apoyando"
               />
             </div>
           </div>

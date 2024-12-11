@@ -19,13 +19,13 @@ const programs = [
   {
     title: "Rehabilitación",
     description:
-      "Proporcionamos un entorno seguro y terapéutico donde las personas reciben terapias psicológicas. Contamos con un enfoque integral que abarca tanto la salud física como la mental, ayudando a cada individuo a reconstruir su vida de manera saludable.",
+      "Ofrecemos un espacio seguro y terapéutico donde personas en recuperación encuentran apoyo físico, emocional y espiritual. Brindamos desintoxicación, terapias integrales y actividades para reconstruir vidas con esperanza y propósito.",
     impact:
       "💊 Impacto: Cientos de pacientes reciben tratamiento médico adecuado para superar las adicciones de manera saludable.",
     activity1:
       "Desintoxicación: Programa supervisado para ayudar a los pacientes a eliminar sustancias de manera segura.",
     activity2:
-      "Terapias: Sesiones grupales e individuales con psicólogos, psicopedagogos y terapeutas.",
+      "Terapias: Sesiones grupales e individuales con voluntarios psicólogos, psicopedagogos y terapeutas.",
     activity3:
       "Actividades recreativas y terapias alternativas (arte, deporte) para promover la salud mental y emocional.",
     icon: "🦾",
@@ -33,9 +33,9 @@ const programs = [
   {
     title: "Educación",
     description:
-      "Con la ayuda de nuestros aliados (SENA, FENEBRAA, Iglisia Cristiana Lazos de amor) Ofrecemos cursos y programas educativos que ayudan a los pacientes a desarrollar habilidades para su reintegración social y mejorar su calidad de vida. Estos programas están diseñados para proporcionar herramientas prácticas que les permitan enfrentar los desafíos cotidianos sin recurrir a sustancias.",
+      "Con la ayuda de nuestros aliados (SENA, FENEBRAA, Iglisia Cristiana Lazos de amor) Ayudamos con cursos y programas educativos que ayudan a los usuarios a desarrollar habilidades para su reintegración social y mejorar su calidad de vida. Estos programas están diseñados para proporcionar herramientas prácticas que les permitan enfrentar los desafíos cotidianos sin recurrir a sustancias.",
     impact:
-      "🏠 Impacto: El 70% de los graduados del programa se reintegran exitosamente en su comunidad. ",
+      "🏠 Impacto: El 70% de los egresados del programa se reintegran exitosamente en su comunidad. ",
     activity1:
       "Implementación de talleres prácticos sobre habilidades laborales (ej. panadería, liderazgo, ofimatica).",
     activity2:
@@ -49,7 +49,7 @@ const Programs = () => {
   return (
     <section className="programs-section">
       <div className="container">
-        <h2 className="section-title">Programas y Servicios</h2>
+        <h2 className="section-title">Programas de ayuda</h2>
         <div className="programs-list">
           {programs.map((program, index) => (
             <div key={index} className="program-item">

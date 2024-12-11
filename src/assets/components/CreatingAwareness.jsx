@@ -22,24 +22,19 @@ const CustomArrow = ({
 
 const videosConsciencia = [
   {
-    titulo: "1ra entrega, Mitos y realidades adicciones",
+    titulo: "10ma entrega, Éxtasis (MDMA)",
     videoUrl:
-      "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F1105138483850665%2F&show_text=false&width=560&t=0",
-  },
-  // {
-  //   titulo: "2da entrega, Comportamiento en adicciones",
-  //   videoUrl:
-  //     "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F1242010370437639%2F&show_text=false&width=560&t=0",
-  // },
-  {
-    titulo: "3ra entrega, Síndrome de abstinencia",
-    videoUrl:
-      "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F3896610743956815%2F&show_text=false&width=560&t=0",
+      "https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F1233994907704951%2F&show_text=false&width=560&t=0",
   },
   {
-    titulo: "4ta entrega, Señales de riesgo",
+    titulo: "9na entrega, Pegante",
     videoUrl:
-      "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F445283331628639%2F&show_text=false&width=560&t=0",
+      "https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F607808115008629%2F&show_text=false&width=560&t=0",
+  },
+  {
+    titulo: "8va entrega, Cocaína",
+    videoUrl:
+      "https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F61559318943462%2Fvideos%2F613241081029543%2F&show_text=false&width=560&t=0",
   },
 ];
 
