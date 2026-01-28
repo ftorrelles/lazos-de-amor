@@ -54,11 +54,11 @@ const ContentInfo = () => {
               <h5>Correo Electrónico</h5>
               <h6>
                 <a
-                  href="mailto:admisiones@fundacionlazosdeamor.com"
+                  href="mailto:lazosdeamor01@hotmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  admisiones@fundacionlazosdeamor.com
+                  lazosdeamor01@hotmail.com
                 </a>
               </h6>
             </div>
